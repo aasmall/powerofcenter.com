@@ -1,15 +1,14 @@
 ![Picture of Carol Small](/img/carol81-240.jpg)
 
-**Carol Small** has an eclectic background and has studied many modalities
-during her 30 years in the health field. She is known for her work with
-patterns, her work with couples, groups and individuals.
+I have an eclectic background and have studied many modalities during my 30
+years in the health field. I'm known for my work with patterns, couples, groups
+and individuals.
 
-She has an amazing talent for listening first to the issue described as a
-problem and helping people see the pattern creating the repetitive cycle. She
-teaches us about the patterns we face, and then gently guides us to face and
-replace, creating a more harmonious existence.
+I help people see the patterns that create a repetitive, and potentialy
+destructive cycle. I teach about the patterns we face, and  gently guide you to
+replace them, creating a more harmonious existence.
 
 > Adding this knowledge to my work with patterns has contributed to helping my
 > clients in a much more profound way.
 >
-> – Carol
+> – Me

@@ -47,4 +47,4 @@ seeking for making ourselves feel  better with approval seeking, need for
 endless control and striving and striving for safety and security and
 contentedness.  The state of Gongjing is the ultimate experience in
 contentedness and connectedness.  I would love to hear how this is supporting
-your life and bringing peace to your world. 
+your life and bringing peace to your world.

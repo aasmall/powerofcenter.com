@@ -5,6 +5,12 @@ tags:       ["Online Meetings", "Group Work"]
 categories: ["Announcements" ]
 ---
 
+## Update: 2020
+
+This workshop has been completed. Due to Covid 19, we're now meeting online.
+Please see my announcment regarding that group [here](../2020-06-26-caroling-support-group)
+
+## Original
 
 Please RSVP by using the contact sheet below. 10 seat availability.
 

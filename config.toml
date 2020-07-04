@@ -6,7 +6,7 @@ languageCode = "en-us"
 disqusShortname = ""
 googleAnalytics = ""
 preserveTaxonomyNames = true
-paginate = 8 #frontpage pagination
+paginate = 5 #frontpage pagination
 hasCJKLanguage = true
 [outputs]
 home = ["HTML", "RSS", "Algolia"]
@@ -14,9 +14,9 @@ home = ["HTML", "RSS", "Algolia"]
 [params]
   header_image = "img/infrared-641823-2.jpg"
   SEOTitle = "Forget Therapy! Simple, direct way to move from repetitive pain to long lasting peace"
-  description = "Forget Therapy! Simple, direct way to move from repetitive pain to long lasting peace"
+  description = "Break out of the patterns that have defined you"
   keyword = "Forget Therapy! Simple, direct way to move from repetitive pain to long lasting peace"
-  slogan = "Forget Therapy! Simple, direct way to move from repetitive pain to long lasting peace"
+  slogan = "Break out of the patterns that have defined you"
 
   showtoc = false
 
@@ -128,47 +128,3 @@ params = ["categories", "tags"]
     startLevel = 1
   [markup.highlight]
     style = "dracula"
-
-[deployment]
-# By default, files are uploaded in an arbitrary order.
-# Files that match the regular expressions in the "Order" list
-# will be uploaded first, in the listed order.
-order = [".jpg$", ".gif$"]
-
-
-[[deployment.targets]]
-# An arbitrary name for this target.
-name = "mydeployment"
-# The Go Cloud Development Kit URL to deploy to. Examples:
-# GCS; see https://gocloud.dev/howto/blob/#gcs
-URL = "gs://power_of_center_com"
-
-# Optionally, you can include or exclude specific files.
-# See https://godoc.org/github.com/gobwas/glob#Glob for the glob pattern syntax.
-# If non-empty, the pattern is matched against the local path.
-# All paths are matched against in their filepath.ToSlash form.
-# If exclude is non-empty, and a local or remote file's path matches it, that file is not synced.
-# If include is non-empty, and a local or remote file's path does not match it, that file is not synced.
-# As a result, local files that don't pass the include/exclude filters are not uploaded to remote,
-# and remote files that don't pass the include/exclude filters are not deleted.
-# include = "**.html" # would only include files with ".html" suffix
-# exclude = "**.{jpg, png}" # would exclude files with ".jpg" or ".png" suffix
-
-
-# [[deployment.matchers]] configure behavior for files that match the Pattern.
-# Samples:
-
-[[deployment.matchers]]
-#  Cache static assets for 1 year.
-pattern = "^.+\\.(js|css|svg|ttf)$"
-cacheControl = "max-age=31536000, no-transform, public"
-gzip = true
-
-[[deployment.matchers]]
-pattern = "^.+\\.(png|jpg)$"
-cacheControl = "max-age=31536000, no-transform, public"
-gzip = false
-
-[[deployment.matchers]]
-pattern = "^.+\\.(html|xml|json)$"
-gzip = true
