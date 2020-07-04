@@ -1,0 +1,57 @@
+<!--Section: Contact v.2-->
+<section class="container-fluid">
+        <form accept-charset="UTF-8" action="https://getform.io/f/51405432-854c-4db1-98c8-a610b3f90683" method="POST"
+            enctype="multipart/form-data" target="_blank" id="ajaxForm">
+
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="exampleInputName">Name</label>
+                        <input type="text" name="name" class="form-control" id="exampleInputName"
+                            placeholder="Enter your name" required="required">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="emailInput" required="required">Email address</label>
+                        <input type="email" name="email" class="form-control" id="emailInput"
+                            aria-describedby="emailHelp" required="required" placeholder="Enter email">
+                    </div>
+                </div>
+
+            </div>
+            <div class="form-group">
+                <label for="message">Your message</label>
+                <textarea type="text" id="message" name="message" rows="4" class="form-control md-textarea"
+                    required="required"></textarea>
+            </div>
+            <hr>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <div class="success">I received your message, thank you for reaching out.</div>
+</section>
+<script>
+    $("#ajaxForm").submit(function (e) {
+        e.preventDefault();
+        var action = $(this).attr("action");
+        $.ajax({
+            type: "POST",
+            url: action,
+            crossDomain: true,
+            data: new FormData(this),
+            dataType: "json",
+            contentType: "multipart/form-data",
+            processData: false,
+            contentType: false,
+            headers: {
+                "Accept": "application/json"
+            }
+        }).done(function () {
+            $('.success').addClass('is-active');
+            $("#ajaxForm").addClass('success')
+        }).fail(function () {
+            alert('An error occurred please try again later.')
+        });
+    });
+</script>
