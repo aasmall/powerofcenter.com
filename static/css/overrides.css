@@ -3,18 +3,23 @@ div.site-heading span.subheading {
     font-family: 'Martel', serif;
 }
 
-div.site-heading span.subheading, div.site-heading h1, nav, div.post-heading {
+div.site-heading span.subheading, div.site-heading h1, nav, .navbar,div.post-heading {
     text-shadow: 1px 1px 1px #000;
     font-family: 'Martel', serif;
 }
-
+div.post-preview .post-content-preview{
+    color: #464646;
+}
+#huxblog_navbar ul li a, nav.navbar div.container-fluid div.navbar-header a.navbar-brand{
+    font-size: 19px;
+}
 body {
-    background-color: #1c1c1c;
-    color: #fff;
+    background-color: #f9f9f9;
+    /* color: #fff; */
     font-size: 1.9em;
     font-family: 'Montserrat', sans-serif;
 }
-h2, h3, h4,h5, h6 {
+h1, h2, h3, h4,h5, h6 {
     font-family: 'Martel', serif;
 }
 
@@ -22,9 +27,9 @@ h2, h3, h4,h5, h6 {
     text-shadow: none;
 }
 
-.post-preview>a {
+/* .post-preview>a {
     color: #fff;
-}
+} */
 
 .success {
     display: none;
