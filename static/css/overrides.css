@@ -9,6 +9,11 @@ div.site-heading span.subheading, div.site-heading h1, nav, div.post-heading {
 body {
     background-color: #1c1c1c;
     color: #fff;
+    font-size: 2em;
+    font-family: 'Raleway', sans-serif;
+}
+h2, h3, h4,h5, h6 {
+    font-family: 'Martel', serif;
 }
 
 .navbar-custom.is-fixed .navbar-brand,.navbar-custom.is-fixed .nav li a {
