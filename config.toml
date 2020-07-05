@@ -12,13 +12,15 @@ hasCJKLanguage = true
 home = ["HTML", "RSS", "Algolia"]
 
 [params]
-  header_image = "img/infrared-641823-2.jpg"
-  SEOTitle = "Forget Therapy! Simple, direct way to move from repetitive pain to long lasting peace"
+  header_image = "img/morning-light-2197692.jpg"
+  SEOTitle = "Break out of the patterns that have defined you"
   description = "Break out of the patterns that have defined you"
-  keyword = "Forget Therapy! Simple, direct way to move from repetitive pain to long lasting peace"
+  keyword = "Break out of the patterns that have defined you"
   slogan = "Break out of the patterns that have defined you"
 
   showtoc = false
+  
+  custom_css = ["css/overrides.css"]
 
   image_404 = "img/404-bg.jpg"
   title_404 = "file not found :("

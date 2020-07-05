@@ -1,3 +1,36 @@
-.subheading {
-    font-size: 2.25em;
+div.site-heading span.subheading {
+    font-size: 1.5em !important;
+}
+
+div.site-heading span.subheading, div.site-heading h1, nav, div.post-heading {
+    text-shadow: 1px 1px 1px #000;
+}
+
+body {
+    background-color: #1c1c1c;
+    color: #fff;
+}
+
+.navbar-custom.is-fixed .navbar-brand,.navbar-custom.is-fixed .nav li a {
+    text-shadow: none;
+}
+
+.post-preview>a {
+    color: #fff;
+}
+
+.success {
+    display: none;
+    background: #E1F8ED;
+    padding: 20px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.is-active {
+    display: block;
+    background: #E1F8ED;
+    padding: 20px;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }

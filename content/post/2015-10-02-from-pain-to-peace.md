@@ -1,6 +1,8 @@
 ---
-title: "from pain to peace"
+title: "From Pain to Peace"
 date: "2015-10-02"
+author: "Carol Small"
+image: "img/forest-931706.jpg"
 tags: 
     - Reflections
 ---

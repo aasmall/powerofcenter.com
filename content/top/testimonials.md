@@ -12,12 +12,12 @@
 > wise as ever. Lots of love
 >
 > -Marjory
->
+
 > Carol is a master . . . she’s brilliant at honing in on core issues. She has
 > helped me undo patterns that years of therapy didn’t touch.
 >
 > -J.B. Life Coach
->
+
 > Carol has helped me with her in-depth, eclectic self-exploration which has
 > given her the intuition and a laser beam ability to get to the core of a false
 > belief that holds destructive patterns in place. She has helped me see with
@@ -27,6 +27,6 @@
 > more could you want?
 >
 > -K.P. Writer
->
+
 > Carol, thank you for the light you shine into the dark places in such an
 > adventurous, fun and completely bearable way
