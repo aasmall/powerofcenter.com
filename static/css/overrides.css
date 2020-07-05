@@ -4,14 +4,17 @@ div.site-heading span.subheading {
 }
 
 div.site-heading span.subheading, div.site-heading h1, nav, .navbar,div.post-heading {
-    text-shadow: 1px 1px 1px #000;
+    text-shadow: 1px 1px 3px #000;
     font-family: 'Martel', serif;
 }
 div.post-preview .post-content-preview{
     color: #464646;
 }
 #huxblog_navbar ul li a, nav.navbar div.container-fluid div.navbar-header a.navbar-brand{
-    font-size: 19px;
+    font-size: 18px;
+    font-weight: 1000;
+    text-shadow: 2px 2px 3px #000,#000 3px 0 5px;
+    font-family: 'Martel', serif;
 }
 body {
     background-color: #f9f9f9;
