@@ -1,6 +1,7 @@
 ---
 title: "What is Relationship Addiction?"
 date: "2020-07-04T14:09:28-07:00"
+image: "img/heartbreak-1209211.jpg"
 tags:
     - My Work
     - Relationships
