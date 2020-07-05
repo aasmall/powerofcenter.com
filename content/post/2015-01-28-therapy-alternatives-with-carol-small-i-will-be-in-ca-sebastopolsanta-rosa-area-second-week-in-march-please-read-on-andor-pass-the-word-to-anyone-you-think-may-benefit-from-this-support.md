@@ -1,6 +1,8 @@
 ---
 title: "Therapy Alternative with Carol Small"
 date: "2015-01-28"
+categories:
+    - Announcements
 ---
 
 I will be in CA, Sebastopol/Santa Rosa area second week in March. Please read on

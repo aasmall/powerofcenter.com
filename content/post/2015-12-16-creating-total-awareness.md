@@ -1,6 +1,8 @@
 ---
 title: "Creating Total Awareness"
 date: "2015-12-16"
+tags: 
+    - Reflections
 ---
 
 It is not easy to be totally aware.  It is not easy to look at anything in a

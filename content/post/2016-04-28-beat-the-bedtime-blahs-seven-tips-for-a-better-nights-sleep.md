@@ -2,7 +2,7 @@
 title: "Beat the Bedtime Blahs: Seven Tips for a Better Night’s Sleep"
 date: "2016-04-28"
 tags: 
-    - Live Well
+    - Tips
 ---
 
 ## How you end the day makes all the difference

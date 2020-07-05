@@ -6,31 +6,37 @@ tags:
     - Relationships
 ---
 
-Interacting with ourselves or one another can feel frustrating.
+Interacting with our loved ones can feel fraught with challenges, and heartache.
+So much built-in expectations and entitlement. I have been asked why be in a
+relationship if it isn’t to get my needs met? Wow, I wonder if you can realize
+that actually holds the other person hostage to live their life to meet your
+needs.  What if I could help you to see that love is first an inside job. What
+if you knew that self-love and inner connection brings such confidence that
+being together isn’t to complete you but to reflect your own self-connection.
+Imagine a relationship that was free of obligation and expectation. Such deep
+comfort.
 
-We search for solutions to problems in our relationships tirelessly trying to
-make it feel right or work by endless communication efforts and continuing to
-try to convince someone else or ourselves to (love us right) to no avail.
+Have you noticed it seems like the same problems come up time and time again and
+no matter how many times we talk it out?  No matter how hard we try to find the
+solution to create harmony and peace and connection that we crave? We complain,
+negotiate, plea, process all to get understood and we try desperately to run
+from old wounds. Old wounding can leave us with such feelings of inadequacy.
+Those old wounds can heal.
 
-Doesn’t it seem like the same problems come up time and time again and no matter
-how many times we talk it out we can’t find the solution to create the harmony
-and peace and connection we crave?
+Have you noticed when you need the other person to validate your existence or
+make you matter you give them all the power over your right to BE? Do you need
+their permission? But if I don’t do what they want they may leave me.  Maybe
+they will, we can’t control that, but you will attract a better relationship
+when you appreciate yourself without giving yourself away. Hurt and wanting
+overtake any chance of happiness, and we are left feeling empty. That is called
+Self Abandonment. Imagine being in a relationship already happy.
 
-Hurt and wanting overtake any chance of happiness, and we are left feeling
-empty.
-
-What if I were to tell you that these ‘problems’ are just our own programming
-replaying out scenario after scenario and we are looking for love and all
-solutions in all the wrong places?
-
-What if I were to tell you the solution comes when we identify the root thought
-form in ourselves that create the unrest? This will change our relationships
-directly and there is hope to have the love, peace and harmony we have always
-wanted.
+What if I were to tell you the solution comes when we allow and accept the
+feeling of hurt, longing or wanting for just 10 seconds, face it, let your own
+awareness bring you home to yourself, and replace it with self-trust. Then
+identify the thought-form that creates the unrest? Is it even true? Or is it
+some old learned outdated thought. This will change our relationships directly
+and the hope to have the love, peace, and harmony that is our birthright.
 
 The most valuable use of this life for me is to support the real change of
 suffering into deep comfort.
-
-Forget therapy and the constant rehashing of feeling and stories.  It only takes
-a second to identify a reactive moment to stop and reprogram repetitive, hitting
-head against the wall, ongoing struggle.

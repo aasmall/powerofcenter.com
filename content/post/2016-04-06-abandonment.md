@@ -53,10 +53,9 @@ programming that is faulty we will keep having the same experiences that cause
 us to suffer.  To me, that is enough reason to put in the effort to face, deal
 and replace our repetitive dysfunctional patterns.
 
-> Notice in nature that a tree gets it’s
-> [nourishment](https://www.powerofcenter.com/nourished-body) from the ground
-> and the rain and sun that gives the life force.  How long would that tree last
-> trying to get nourishment from the leaves of another tree?
+> Notice in nature that a tree gets it’s nourishment from the ground and the
+> rain and sun that gives the life force.  How long would that tree last trying
+> to get nourishment from the leaves of another tree?
 
 We can relate to being like the ocean, large and vast in our true self, but
 limit ourselves to needing one more cup of salt water and our perception shrinks

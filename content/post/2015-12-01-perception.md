@@ -1,6 +1,8 @@
 ---
 title: "Perception"
 date: "2015-12-01"
+tags: 
+    - Reflections
 ---
 
 Let’s take a moment to reflect on perceptions. With a birds eye view open to the

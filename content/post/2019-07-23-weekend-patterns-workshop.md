@@ -1,8 +1,10 @@
 ---
 title:      "Weekend Patterns Workshop"
 date:       "2019-07-23"
-tags:       ["Online Meetings", "Group Work"]
-categories: ["Announcements" ]
+tags:       
+    - Group Work
+categories:
+    - Announcements
 ---
 
 ## Update: 2020

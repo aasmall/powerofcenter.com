@@ -1,6 +1,8 @@
 ---
 title: "from pain to peace"
 date: "2015-10-02"
+tags: 
+    - Reflections
 ---
 
 My programming from child hood was running, acting, pretending, overriding

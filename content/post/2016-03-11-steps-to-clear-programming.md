@@ -3,7 +3,7 @@ title: "Steps to clear programming"
 date: "2016-03-11"
 image: "/img/yellowstone-1589613.png"
 tags:
-    - My Work
+    - Tips
 ---
 
 ## Step one

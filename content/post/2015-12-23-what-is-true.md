@@ -1,6 +1,8 @@
 ---
 title: "What is True?"
 date: "2015-12-23"
+tags: 
+    - Reflections
 ---
 
 I was inquiring into a family member’s beliefs the other day and they were
