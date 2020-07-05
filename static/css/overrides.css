@@ -26,7 +26,9 @@ h1, h2, h3, h4,h5, h6 {
 .navbar-custom.is-fixed .navbar-brand,.navbar-custom.is-fixed .nav li a {
     text-shadow: none;
 }
-
+div.sidebar-container div.tags a, div.sidebar-container {
+    color: #464646 !important;
+}
 /* .post-preview>a {
     color: #fff;
 } */

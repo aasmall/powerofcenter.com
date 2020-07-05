@@ -20,7 +20,7 @@ home = ["HTML", "RSS", "Algolia"]
 
   showtoc = false
   
-  custom_css = ["css/overrides.css"]
+  custom_css = ["css/overrides.css","https://fonts.googleapis.com/css2?family=Martel&family=Montserrat&family=Raleway&display=swap"]
 
   image_404 = "img/404-bg.jpg"
   title_404 = "file not found :("
