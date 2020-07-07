@@ -6,40 +6,26 @@ tags:
     - Tips
 ---
 
-## Step one
+# Identify, Face, and Replace
 
-Identify notice feeling that took me away from calm.
+## **Step one**
 
-## Step two
+**Identify** the pattern that takes you away from calm. For example, too many
+things pile up on your plate and overwhelm sets in.  
 
-Ask what thought caused that feeling.
+## **Step two**
 
-## Step three
+Notice the resistance to the feeling of overwhelm and the thought is if I just
+get everything done I can relax. What if instead, you stop for 30 seconds and
+allow the feeling of overwhelm. The sensation of tightness in the body the
+impatience and looking ahead to the next moment to get to the end of the next
+task. **Face** that enjoyment and lightness have been postponed and life feels
+like a struggle. **Accept** my own destructive thought is causing this pressure.
 
-I'm a bother is the thought. (I have to do it right or I will die, I doubt,
-doubt doubt)
+## **Step three**
 
-## Step four
-
-Notice how destructive that thought is because it is the thought that caused the
-pressured feeling.
-
-## Step five
-
-I am willing to take full responsibility for that destructive thought instead of
-believing or responding to thought with a feeling.
-
-## Step six
-
-Dealing with it means to check if the feeling can still be elicited from the
-thought.
-
-Go back and forth and tell no feeling can be.
-
-## Step seven
-
-Replace get Calm. Calm, centered natural is a replacement also trust trust trust
-relax complete.
-
-Never doubt the results of your work simply know that it is good it is complete
-and it is done.
+Now it is time to **replace** that thought. We can do this in different ways.
+My favorite is to bring in the heart quality of Trust, openness, love,
+gratitude, and True respect. What does it feel like to trust yourself to do your
+best and that is enough. Now your task can be done with more calm, confidence,
+and enjoyment.
