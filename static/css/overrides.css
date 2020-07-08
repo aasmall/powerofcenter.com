@@ -11,7 +11,7 @@ div.post-preview .post-content-preview {
     color: #464646;
 }
 
-div.site-heading {
+div.site-heading, div.post-heading {
     text-shadow: 2px 2px 3px #000, #000 3px 0 5px;
 }
 
