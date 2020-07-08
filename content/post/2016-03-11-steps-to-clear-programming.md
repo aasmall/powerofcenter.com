@@ -1,7 +1,8 @@
 ---
 title: "Steps to clear programming"
 date: "2016-03-11"
-image: "/img/yellowstone-1589613.png"
+image: "/img/background-2413079.jpg"
+dark: true
 tags:
     - Tips
 ---
