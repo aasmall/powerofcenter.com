@@ -20,7 +20,6 @@ Please RSVP by using the contact sheet below. 10 seat availability.
 Weekend workshop to make some real headway with yours or whoever you share this
 with, patterns.
 
-
 |            |                                       |
 |------------|---------------------------------------|
 | **Dates**  | Aug 17th and 18th                     |

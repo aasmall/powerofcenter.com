@@ -20,6 +20,9 @@ nav.navbar div.container-fluid div.navbar-header a.navbar-brand {
     font-weight: 1000;
     font-family: 'Martel', serif;
 }
+.sidebar-container a{
+    color: #464646 !important;
+}
 
 body {
     background-color: #f9f9f9;

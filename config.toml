@@ -12,7 +12,7 @@ hasCJKLanguage = true
 home = ["HTML", "RSS", "Algolia"]
 
 [params]
-  header_image = "img/nature-2605299.jpg"
+  header_image = "img/water-373780.png"
   SEOTitle = "Break out of the patterns that have defined you"
   description = "Break out of the patterns that have defined you"
   keyword = "Break out of the patterns that have defined you"
@@ -57,7 +57,7 @@ home = ["HTML", "RSS", "Algolia"]
   # reward_guide = "如果这篇文章对你有用,请随意打赏" 
 
   friends = false
-  bookmarks = false
+  bookmarks = true
   about_me = true
 
   # Include any custom CSS and/or JS files, url or relative to /static folder
@@ -88,9 +88,9 @@ home = ["HTML", "RSS", "Algolia"]
   # title = "Linda的博客"
   # href =  "https://zhaozhihan.com"
 
-  # [[params.bookmark_link]]
-  # title =  "Martin Fowler"
-  # href =  "https://martinfowler.com"
+  [[params.bookmark_link]]
+  title =  "Testimonials"
+  href =  "/top/testimonials/"
   # [[params.bookmark_link]]
   # title = "ServiceMesher"
   # href =  "http://www.servicemesher.com"
@@ -103,12 +103,8 @@ home = ["HTML", "RSS", "Algolia"]
   
 
   [[params.addtional_menus]]
-  title =  "ABOUT"
-  href =  "/top/about/"
-
-  [[params.addtional_menus]]
-  title =  "TESTIMONIALS"
-  href =  "/top/testimonials/"
+  title =  "POSTS"
+  href =  "/post/"
 
   [[params.addtional_menus]]
   title =  "CONTACT ME"

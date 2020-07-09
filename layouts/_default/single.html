@@ -75,7 +75,7 @@
                     <span class="meta">
                         Posted by
                         {{ if .Params.author }}
-                        {{ .Params.author }}
+                        {{ trim .Params.author "\" "}}
                         {{ else }}
                         {{ .Site.Title }}
                         {{ end }}
