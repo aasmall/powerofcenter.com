@@ -5,7 +5,20 @@
         background-image: url('{{ if .Params.image }}{{ .Params.image | relURL }}{{ else }}{{ .Site.Params.header_image | relURL}}{{ end }}')
     }
 </style>
-
+{{ if .Params.noheader }}
+<style>
+    thead {
+        display: none;
+    }
+</style>
+{{ end }}
+{{ if .Params.indent }}
+<style>
+    article .post-container {
+        text-indent: 2em;
+    }
+</style>
+{{ end }}
 {{ if .Params.dark }}
 <style type="text/css">
     div.site-heading,

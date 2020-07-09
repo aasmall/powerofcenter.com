@@ -1,6 +1,7 @@
 ---
 title:      "Weekend Patterns Workshop"
 date:       "2019-07-23"
+
 tags:       
     - Group Work
 categories:
@@ -19,7 +20,6 @@ Please RSVP by using the contact sheet below. 10 seat availability.
 Weekend workshop to make some real headway with yours or whoever you share this
 with, patterns.
 
-{{<noheader>}}
 
 |            |                                       |
 |------------|---------------------------------------|

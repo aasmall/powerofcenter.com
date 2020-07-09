@@ -86,8 +86,8 @@ div.sidebar-container div.tags a, div.sidebar-container {
     margin-bottom: 16px;
 }
 
-article .post-container {
-    text-indent: 2em;
+div.form-group {
+    text-indent: 0em;
 }
 
 article .post-container img {
