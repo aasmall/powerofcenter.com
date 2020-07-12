@@ -5,8 +5,8 @@ description: ""
 indent:      false
 dark:        false
 date:        2020-07-08T23:29:35-07:00
-author:      ""
+author:      "Carol Small"
 image:       ""
-tags:        ["tag1", "tag2"]
-categories:  ["Tech" ]
+tags:        ["tips", "tag2"]
+categories:  ["" ]
 ---

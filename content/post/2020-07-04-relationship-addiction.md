@@ -1,7 +1,8 @@
 ---
 title: "What is Relationship Addiction?"
 date: "2020-07-04T14:09:28-07:00"
-image: "img/heartbreak-1209211.jpg"
+image: "img/nature-2982702.jpg"
+dark: false
 author: "Carol Small"
 tags:
     - My Work

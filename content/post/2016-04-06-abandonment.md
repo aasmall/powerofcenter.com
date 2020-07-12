@@ -1,5 +1,6 @@
 ---
-title: "Doomed to a lifetime of being abandoned by the people I love?"
+title: "Abandonment"
+subtitle: "Am I doomed to a lifetime of feelings of being abandoned by the people I love?"
 date: "2016-04-06"
 draft: false
 tags:
