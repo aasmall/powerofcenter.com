@@ -7,7 +7,7 @@ tags:
     - My Work
 ---
 
-{{< img class= "fill" src="/img/carol-and-harper.jpg">}}
+{{< img class="center" src="/img/carol-and-harper.jpg">}}
 
 # heading here
 

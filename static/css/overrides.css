@@ -20,7 +20,8 @@ nav.navbar div.container-fluid div.navbar-header a.navbar-brand {
     font-weight: 1000;
     font-family: 'Martel', serif;
 }
-.sidebar-container a{
+
+.sidebar-container a {
     color: #464646 !important;
 }
 
@@ -53,9 +54,11 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-custom .nav li a {
     text-shadow: 2px 2px 3px #000, #000 3px 0 5px;
 }
+
 nav.is-visible .nav li a {
     text-shadow: none;
 }
+
 @media only screen and (min-width:768px) {
     .navbar-custom .navbar-brand:hover, .navbar-custom .navbar-brand:focus {
         color: #464646;
@@ -113,4 +116,12 @@ article img.fill {
     max-width: 100%;
     width: 100%;
     margin: 0;
+}
+
+article img.center {
+    max-width: 100%;
+    margin: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
