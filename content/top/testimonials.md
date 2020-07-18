@@ -1,5 +1,19 @@
 # Testimonials
 
+> I have been working with an amazing teacher/counselor.  Her name is Carol and
+> she has been a spiritual teacher to a very close friend of mine for many years,
+> so I needed to make some very important changes is when I began my work with
+> her. Facing yourself has never been so fun.
+ 
+> She works with many modalities, sort of Byron Katie and Sedona Method-Esque and
+> Yuan Gong Ren Xue special type of Qi Gong that includes work on clearing and
+> changing old programming that keeps circulating and causing problems, and
+> probably others have thrown in.  Essentially she is like a laser surgeon for me
+> and helps me get right to the root of every problem in my life…she guides me to
+> identify, remove, and replace thoughts with trust, openness, love, gratitude,
+> and respect.  I can’t say enough about what a difference this help has made in
+> my life. K.C.
+
 > Dear Carol, Thank you for a great call dealing with something that I am very
 > familiar with. Getting overwhelmed with all there is to do, feeling like I
 > should be more productive or accomplish something. Or I am going to get too
