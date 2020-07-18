@@ -1,7 +1,7 @@
 ---
-title: "What is Relationship Addiction?"
+title: "Transformation of Relationship Addiction"
 date: "2020-07-04T14:09:28-07:00"
-image: "img/nature-2982702.jpg"
+image: "img/island-3542290.jpg"
 dark: false
 author: "Carol Small"
 tags:

@@ -3,6 +3,8 @@ title: "Abandonment"
 subtitle: "Am I doomed to a lifetime of feelings of being abandoned by the people I love?"
 date: "2016-04-06"
 draft: false
+dark: true
+image: "img/ice-4833830.jpg"
 tags:
     - My Work
 ---

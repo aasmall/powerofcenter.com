@@ -1,5 +1,5 @@
 ---
-title:       "Hey!  Where's my Pony?"
+title:       "Embracing Disappointment"
 subtitle:    ""
 description: ""
 indent:      false

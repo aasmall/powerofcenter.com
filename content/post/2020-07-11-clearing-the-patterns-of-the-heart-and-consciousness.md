@@ -3,10 +3,10 @@ title:       "Clearing patterns"
 subtitle:    "of heart and consciousness"
 description: ""
 indent:      false
-dark:        false
+dark:        true
 date:        2020-07-09T21:39:35-07:00
 author:      "Carol Small"
-image:       "/img/island-3542290.jpg"
+image:       "/img/sky-4850411.jpg"
 tags:        ["tips"]
 ---
 

@@ -1,6 +1,8 @@
 ---
 title: "The Experience of Gongjing"
 date: "2016-05-20"
+dark: true
+image: "img/water-872016.jpg"
 tags: ["Yuan Gong", "Ren Xue"]
 ---
 To Whom It May Concern,

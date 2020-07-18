@@ -4,6 +4,7 @@ indent:      true
 dark:        false
 date:        2014-05-13
 author:      "Carol Small"
+image:       "img/nature-2605299.jpg"
 tags:        ["tag1", "tag2"]
 ---
 
