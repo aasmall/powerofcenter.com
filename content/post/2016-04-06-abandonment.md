@@ -3,15 +3,14 @@ title: "Abandonment"
 subtitle: "Am I doomed to a lifetime of feelings of being abandoned by the people I love?"
 date: "2016-04-06"
 draft: false
-dark: true
-image: "img/ice-4833830.jpg"
+dark: false
+indent: true
+image: "img/winter-2710049.jpg"
 tags:
     - My Work
 ---
 
-{{< img class="center" src="/img/carol-and-harper.jpg">}}
-
-# heading here
+{{< img class="rfloat" src="/img/carol-and-harper.jpg">}}
 
 This has been inspired by one of the sweetest girls on the planet. She asked
 this question and I think it is such a universal question that I thought I would

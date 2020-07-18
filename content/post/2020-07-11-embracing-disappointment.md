@@ -2,7 +2,7 @@
 title:       "Embracing Disappointment"
 subtitle:    ""
 description: ""
-indent:      false
+indent:      true
 dark:        false
 date:        2020-07-11T15:34:56-07:00
 author:      "Carol Small"
@@ -14,11 +14,11 @@ gregarious and interested in you, promising you the moon and then not realizing
 that adults get busy, they forget they were talking to a very open and trusting
 child, wide-eyed innocent and full of hope and excitement, they drop the ball,
 tell the child I am too busy or worse, leave following life’s changes. Totally
-forgetting the “pony” they promised. But the child never forgets, but gets their
-hopes up and begins to wait and wait and wait, developing an empty feeling of
-being ditched ultimately believing they are not important. This gets stored in
-the mind and gets reenacted in adult relationships and every time a text message
-is ignored or someone breaks a date, gets distracted, or maybe even rejects your
+forgetting promises made. But the child never forgets, but gets their hopes up
+and begins to wait and wait and wait, developing an empty feeling of being
+ditched ultimately believing they are not important. This gets stored in the
+mind and gets reenacted in adult relationships and every time a text message is
+ignored or someone breaks a date, gets distracted, or maybe even rejects your
 opinion, that old pain resurfaces. It is not actually personal but the hurt is
 from the past triggering this imprint, a form of hard wiring and shows up as a
 pattern of feeling unloveable or unwanted or left out. The insecurity coming

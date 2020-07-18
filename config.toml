@@ -95,6 +95,10 @@ home = ["HTML", "RSS", "Algolia"]
   [[params.bookmark_link]]
   title =  "Education"
   href =  "/top/education/"
+
+  [[params.bookmark_link]]
+  title =  "My Work"
+  href =  "/top/my-work/"
   # [[params.bookmark_link]]
   # title = "ServiceMesher"
   # href =  "http://www.servicemesher.com"

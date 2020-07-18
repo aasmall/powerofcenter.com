@@ -3,10 +3,10 @@ title:       "Facing Strong Feelings"
 subtitle:    ""
 description: ""
 indent:      false
-dark:        false
+dark:        true
 date:        2020-07-09T19:29:35-07:00
+image:       "img/smile-3732415.jpg"
 author:      "Carol Small"
-image:       "/img/chair-3929187.jpg"
 tags: 
     - Tips
 ---

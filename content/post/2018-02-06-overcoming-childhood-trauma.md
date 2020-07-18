@@ -2,6 +2,7 @@
 title: "Overcoming Childhood Trauma"
 date: "2018-02-06"
 draft: false
+indent: true
 image: "/img/lonely-3062045.jpg"
 tags:
     - My Work

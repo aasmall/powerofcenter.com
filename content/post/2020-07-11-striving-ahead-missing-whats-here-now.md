@@ -2,11 +2,11 @@
 title:       "Striving ahead"
 subtitle:    "Missing what's here now"
 description: ""
-indent:      false
-dark:        true
+indent:      true
+dark:        false
 date:        2020-07-09T20:43:35-07:00
 author:      "Carol Small"
-image:       "img/highway-2498003.jpg"
+image:       "img/mam-tor-5393685.jpg"
 tags:        ["tips"]
 ---
 Take a moment to just reflect on how much time is spent getting ahead of

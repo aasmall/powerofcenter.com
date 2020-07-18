@@ -2,7 +2,7 @@
 title: "Beat the Bedtime Blahs: Seven Tips for a Better Night’s Sleep"
 date: "2016-04-28"
 image: "img/sunset-1373171.jpg"
-dark: true
+dark: false
 tags: 
     - Tips
 ---

@@ -1,9 +1,8 @@
 # Education
 
 I did not follow the traditional educational path that many find comfort in. I
-did not attend university, or complete a MFT certification. Instead I've learned
-from the many healers and teachers that have crossed my path over the last 40
-years
+did not complete a degree, or get a MFT certification. Instead I've learned from
+the many healers and teachers that have crossed my path over the last 40 years
 
 I believe in continuing education and draw inspiration from these disciplines
 
