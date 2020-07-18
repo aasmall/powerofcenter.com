@@ -27,7 +27,7 @@ platform where we have a tendency to self-abandon for the expected bliss of
 connection with “other”.  Abandonment is simply a reflection of self-abandonment
 and more easily addressed that one would suspect.
 
-## **Experiencing Abandonment**
+## Experiencing Abandonment
 
 It doesn’t seem to be popular thought that if we are experiencing abandonment
 that we look to first our relationship to ourselves. We may think we have full
