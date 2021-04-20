@@ -1,5 +1,5 @@
 ---
-title: "Self-Realization"
+title: "Self- Realization"
 date: "2020-08-12"
 indent: true
 author: Carol Small
