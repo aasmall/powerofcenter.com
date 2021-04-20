@@ -3,7 +3,7 @@ title: "Yuan Gong and Ren Xue Teachings"
 author: "Carol Small" 
 date: 2017-05-02T00:00:00-07:00
 dark: true
-image: "img/feng-shui-1960783.jpg"
+image: "feng-shui-1960783.jpg"
 tags: ["Yuan Gong", "Ren Xue"]
 ---
 

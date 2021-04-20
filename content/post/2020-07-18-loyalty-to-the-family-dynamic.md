@@ -6,7 +6,7 @@ indent:      true
 dark:        false
 date:        2020-07-18T10:49:35-07:00
 author:      "Carol Small"
-image:       "img/rope-1468951.jpg"
+image:       "rope-1468951.jpg"
 tags:        ["tips"]
 categories:  ["" ]
 ---

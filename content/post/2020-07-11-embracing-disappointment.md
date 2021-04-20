@@ -6,7 +6,7 @@ indent:      true
 dark:        false
 date:        2020-07-11T15:34:56-07:00
 author:      "Carol Small"
-image:       "/img/model-2373407.jpg"
+image:       "model-2373407.jpg"
 tags:        ["tips"]
 ---
 Maybe you know what it is like to grow up with an enthusiastic parent,

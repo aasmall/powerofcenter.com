@@ -6,7 +6,7 @@ indent:      false
 dark:        true
 date:        2020-07-09T21:39:35-07:00
 author:      "Carol Small"
-image:       "/img/sky-4850411.jpg"
+image:       "sky-4850411.jpg"
 tags:        ["tips"]
 ---
 

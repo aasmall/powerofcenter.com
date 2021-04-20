@@ -1,7 +1,7 @@
 ---
 title: "Steps to clear programming"
 date: "2016-03-11"
-image: "/img/background-2413079.jpg"
+image: "background-2413079.jpg"
 dark: true
 tags:
     - Tips

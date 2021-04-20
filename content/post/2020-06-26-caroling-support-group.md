@@ -2,7 +2,6 @@
 title:      "Caroling Support Group"
 author:     "Carol Small"
 date:       2020-06-29T17:13:17-07:00
-draft:      false
 tags:       ["Online Meetings", "Group Work"]
 categories: ["Announcements" ]
 ---

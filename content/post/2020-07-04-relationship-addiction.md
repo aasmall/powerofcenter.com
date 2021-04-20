@@ -1,7 +1,7 @@
 ---
 title: "Transformation of Relationship Addiction"
 date: "2020-07-04T14:09:28-07:00"
-image: "img/island-3542290.jpg"
+image: "island-3542290.jpg"
 dark: false
 indent: true
 author: "Carol Small"

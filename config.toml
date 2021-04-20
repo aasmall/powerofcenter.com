@@ -1,4 +1,4 @@
-baseurl = "http://107.178.240.166"
+baseurl = "/"
 title = "Power of Center"
 theme = "hugo-theme-cleanwhite"
 languageCode = "en-us"

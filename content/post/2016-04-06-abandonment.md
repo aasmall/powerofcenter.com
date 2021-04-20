@@ -5,7 +5,7 @@ date: "2016-04-06"
 draft: false
 dark: false
 indent: true
-image: "img/winter-2710049.jpg"
+image: "winter-2710049.jpg"
 tags:
     - My Work
 ---
