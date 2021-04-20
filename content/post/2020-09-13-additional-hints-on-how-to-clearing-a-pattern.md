@@ -1,8 +1,9 @@
 ---
-title: "Additional hints on how to clearing a pattern"
+title: "How to clear a pattern "
+subtitle: "Part II"
 date: "2020-09-13"
 author: Carol Small
-image: "the-background-931447-scaled.jpg"
+image: "winter-2945906.jpg"
 ---
 
 The basic way to clear a pattern is to **Face, Accept, and Replace.**
