@@ -13,5 +13,11 @@ the past memories that hinder your happiness in the present moment.
 
 [Read more about my work here.](/top/my-work)
 
+# TODO
+
+- [ ] Carol: Make this homepage list of services more brief and link out to actual content.
+- [ ] Carol: Rethink tags for posts. What labels should each post have?
+- [ ] Aaron: Make "upload website button"
+- [ ] Aaron: Refine menu system to allow for drop downs and better categories.
 
 {{<contactform>}}
