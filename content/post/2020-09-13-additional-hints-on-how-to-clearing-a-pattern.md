@@ -3,7 +3,7 @@ title: "How to clear a pattern "
 subtitle: "Part II"
 date: "2020-09-13"
 author: Carol Small
-image: "winter-2945906.jpg"
+image: "winter-2710049.jpg"
 ---
 
 The basic way to clear a pattern is to **Face, Accept, and Replace.**
