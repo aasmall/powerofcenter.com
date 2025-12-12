@@ -1,0 +1,5 @@
+{{/* Comments disabled - Disqus not configured */}}
+{{ with site.Config.Services.Disqus.Shortname }}
+<div id="disqus-comment"></div>
+{{ template "_internal/disqus.html" $ }}
+{{ end }}

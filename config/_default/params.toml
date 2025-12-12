@@ -1,0 +1,5 @@
+# Production Turnstile sitekey
+turnstileSitekey = "0x4AAAAAACGJqfHwEAyQHxdg"
+
+# Production worker URL
+contactWorkerUrl = "https://powerofcenter-contact.powerofcenter-com.workers.dev"

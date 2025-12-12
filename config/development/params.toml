@@ -1,0 +1,6 @@
+# Test Turnstile sitekey - ALWAYS PASSES (never deploy to prod!)
+# https://developers.cloudflare.com/turnstile/troubleshooting/testing/
+turnstileSitekey = "1x00000000000000000000AA"
+
+# Local worker dev server
+contactWorkerUrl = "http://localhost:8787"

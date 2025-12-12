@@ -1,0 +1,15 @@
+name = "powerofcenter-contact"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+# Routes - uncomment after first deploy
+# routes = [
+#   { pattern = "contact.powerofcenter.com/*", zone_name = "powerofcenter.com" }
+# ]
+
+# TURNSTILE_SECRET is set via `wrangler secret put` (not here - secrets are encrypted)
+
+[vars]
+TO_EMAIL = "carol@powerofcenter.org"
+FROM_EMAIL = "contact@powerofcenter.com"
+FROM_NAME = "Power of Center Contact Form"

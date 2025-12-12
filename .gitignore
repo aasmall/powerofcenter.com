@@ -1,1 +1,16 @@
+# Hugo build output
 /public
+.hugo_build.lock
+resources/_gen/
+
+# Backups
+.backup-*/
+
+# Editor/OS
+.DS_Store
+*.swp
+*.swo
+
+# Worker secrets (local dev)
+worker/.dev.vars
+worker/node_modules/

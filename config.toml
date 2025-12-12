@@ -6,7 +6,9 @@ languageCode = "en-us"
 disqusShortname = ""
 googleAnalytics = ""
 preserveTaxonomyNames = true
-paginate = 5 #frontpage pagination
+# paginate = 5 - DEPRECATED, use pagination.pagerSize
+[pagination]
+pagerSize = 5
 hasCJKLanguage = true
 [outputs]
 home = ["HTML", "RSS", "Algolia"]

@@ -1,57 +1,94 @@
 <!--Section: Contact v.2-->
+<!-- Turnstile script -->
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+
 <section class="container-fluid">
-        <form accept-charset="UTF-8" action="https://getform.io/f/51405432-854c-4db1-98c8-a610b3f90683" method="POST"
-            enctype="multipart/form-data" target="_blank" id="ajaxForm">
+    <form accept-charset="UTF-8" action="{{ .Site.Params.contactWorkerUrl }}" method="POST"
+        id="ajaxForm">
 
-            <div class="row">
-
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="exampleInputName">Name</label>
-                        <input type="text" name="name" class="form-control" id="exampleInputName"
-                            placeholder="Enter your name" required="required">
-                    </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="exampleInputName">Name</label>
+                    <input type="text" name="name" class="form-control" id="exampleInputName"
+                        placeholder="Enter your name" required="required">
                 </div>
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="emailInput" required="required">Email address</label>
-                        <input type="email" name="email" class="form-control" id="emailInput"
-                            aria-describedby="emailHelp" required="required" placeholder="Enter email">
-                    </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="emailInput">Email address</label>
+                    <input type="email" name="email" class="form-control" id="emailInput"
+                        aria-describedby="emailHelp" required="required" placeholder="Enter email">
                 </div>
+            </div>
+        </div>
 
-            </div>
-            <div class="form-group">
-                <label for="message">Your message</label>
-                <textarea type="text" id="message" name="message" rows="4" class="form-control md-textarea"
-                    required="required"></textarea>
-            </div>
-            <hr>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-        <div class="success">I received your message, thank you for reaching out.</div>
+        <div class="form-group">
+            <label for="message">Your message</label>
+            <textarea id="message" name="message" rows="4" class="form-control md-textarea"
+                required="required"></textarea>
+        </div>
+
+        <!-- Honeypot field - hidden from humans, bots fill it out -->
+        <div style="position: absolute; left: -9999px;" aria-hidden="true">
+            <label for="_gotcha">Leave empty</label>
+            <input type="text" name="_gotcha" id="_gotcha" tabindex="-1" autocomplete="off">
+        </div>
+
+        <!-- Timestamp for timing validation -->
+        <input type="hidden" name="_timestamp" id="_timestamp">
+
+        <!-- Cloudflare Turnstile (invisible) -->
+        <div class="cf-turnstile" data-sitekey="{{ .Site.Params.turnstileSitekey }}" data-callback="onTurnstileSuccess"></div>
+
+        <hr>
+        <button type="submit" class="btn btn-primary" id="submitBtn" disabled>Submit</button>
+    </form>
+    <div class="success">I received your message, thank you for reaching out.</div>
 </section>
+
 <script>
+    // Set timestamp when form loads (for timing check)
+    document.getElementById('_timestamp').value = Date.now();
+
+    // Enable submit button after Turnstile passes
+    function onTurnstileSuccess(token) {
+        document.getElementById('submitBtn').disabled = false;
+    }
+
     $("#ajaxForm").submit(function (e) {
         e.preventDefault();
-        var action = $(this).attr("action");
+        var form = this;
+        var submitBtn = document.getElementById('submitBtn');
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Sending...';
+
         $.ajax({
             type: "POST",
-            url: action,
+            url: $(form).attr("action"),
             crossDomain: true,
-            data: new FormData(this),
-            dataType: "json",
-            contentType: "multipart/form-data",
+            data: new FormData(form),
             processData: false,
             contentType: false,
             headers: {
                 "Accept": "application/json"
             }
-        }).done(function () {
+        }).done(function (response) {
             $('.success').addClass('is-active');
-            $("#ajaxForm").addClass('success')
-        }).fail(function () {
-            alert('An error occurred please try again later.')
+            $("#ajaxForm").addClass('success');
+            form.reset();
+            // Reset Turnstile for potential resubmission
+            if (typeof turnstile !== 'undefined') {
+                turnstile.reset();
+            }
+        }).fail(function (xhr) {
+            var msg = 'An error occurred, please try again later.';
+            if (xhr.responseJSON && xhr.responseJSON.error) {
+                msg = xhr.responseJSON.error;
+            }
+            alert(msg);
+            submitBtn.disabled = false;
+            submitBtn.textContent = 'Submit';
         });
     });
 </script>
