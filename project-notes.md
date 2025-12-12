@@ -17,15 +17,11 @@ History of decisions, features, and architectural choices for this project.
 1. Add spam protection to contact form
 2. Ensure legitimate messages reach mom
 
-**Open Questions:**
-- [ ] Where is the Hugo source repository?
-- [ ] What GCP service hosts the site? (Cloud Storage? Firebase Hosting?)
-- [ ] Where does the form POST to? (Cloud Function? Google Script?)
-- [ ] Does mom have access to GCP console?
-
-**Future Considerations:**
-- May need to set up a new form backend if current one is unknown/inaccessible
-- Consider managed form services (Formspree, Basin) vs self-hosted (Cloud Function)
+**Answers Found:**
+- [x] Source repo: github.com/aasmall/powerofcenter.com
+- [x] Hosting: GCS bucket `gs://power-of-center-website-content`
+- [x] Form backend: Getform.io (replaced)
+- [x] DNS registrar: Squarespace Domains (migrated NS to Cloudflare)
 
 ---
 
@@ -37,7 +33,7 @@ History of decisions, features, and architectural choices for this project.
 - Cloudflare DNS + Bot Fight Mode
 - Cloudflare Worker for form backend
 - Cloudflare Turnstile for invisible CAPTCHA
-- MailChannels for email (free for CF Workers)
+- ~~MailChannels for email~~ → Resend API (MailChannels killed free tier Aug 2024)
 
 **Alternatives Considered:**
 1. GCP Cloud Function + honeypot - More manual security work, familiar stack
@@ -51,7 +47,43 @@ History of decisions, features, and architectural choices for this project.
 - Con: DNS migration required (one-time effort)
 - Con: New platform to learn
 
-**Future Considerations:**
-- If Cloudflare changes pricing, alternatives exist
-- Worker code will be in repo for visibility
-- MailChannels has generous limits (should never hit them)
+---
+
+## 2025-12-11 - Implementation Complete
+
+**What was built:**
+
+| Layer | Solution |
+|-------|----------|
+| DNS/CDN | Cloudflare (Bot Fight Mode enabled) |
+| Form CAPTCHA | Turnstile (invisible, test keys for local dev) |
+| Form Backend | Cloudflare Worker (`worker/src/index.ts`) |
+| Spam Filters | Honeypot field + timing validation (reject < 3s) |
+| Email | Resend API (3,000/month free) |
+| Email Auth | SPF (via Resend) + DKIM + DMARC |
+
+**Hugo Fixes Required:**
+- `paginate` → `pagination.pagerSize` (Hugo v0.128+ breaking change)
+- `_internal/google_analytics_async.html` → `_internal/google_analytics.html`
+- `.Site.DisqusShortname` → `site.Config.Services.Disqus.Shortname`
+- `.Site.GoogleAnalytics` → `site.Config.Services.GoogleAnalytics.ID`
+- Created layout overrides in `layouts/partials/` to avoid modifying theme submodule
+
+**Environment-based Config:**
+- `config/_default/params.toml` - Production Turnstile sitekey + Worker URL
+- `config/development/params.toml` - Test sitekey (always passes) + localhost
+
+**Secrets (not in repo):**
+- `TURNSTILE_SECRET` - via `wrangler secret put`
+- `RESEND_API_KEY` - via `wrangler secret put`
+- `worker/.dev.vars` - local dev secrets (gitignored)
+
+**DNS Records Added:**
+- DMARC: `_dmarc` TXT `v=DMARC1; p=none;`
+- (Resend handles SPF/DKIM via their sending subdomain)
+
+**Deployment:**
+- Worker: `cd worker && wrangler deploy`
+- Site: `hugo --environment production && gsutil -m rsync -r public gs://power-of-center-website-content`
+
+**Cost:** $0/month (all free tiers)
